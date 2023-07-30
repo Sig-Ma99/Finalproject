@@ -114,7 +114,7 @@ def output():
     print(combo)
     for com in combo:
         results =[]
-        for i in range(5000):
+        for i in range(500):
             objects_labels = labels[i]
             input_ids = tokenizer(finalprompt(objects_labels, com[0], com[1]), return_tensors="pt").input_ids
             outputs = model.generate(input_ids, max_length=200)
