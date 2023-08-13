@@ -94,17 +94,7 @@ def finalprompt(concepts_name, p, g):
 
 def output():
     combo = list()
-    for i in range(4):
-        a = list()
-        a.append(i)
-        a.append(5)
-        combo.append(a)
-    for i in range(1,6):
-        a = list()
-        a.append(i)
-        a.append(3)
-        combo.append(a)
-    for i in range(1,11):
+    for i in range(10,11):
         a = list()
         a.append(i)
         a.append(1)
